@@ -21,6 +21,7 @@ button:hover {
 }
 
 h1 {
+    letter-spacing:1px;
     font-family:'Abril Fatface', cursive;
     font-weight:lighter;
     font-size:40px;
