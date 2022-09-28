@@ -1,0 +1,30 @@
+/*
+MY COLOR PALETTE
+Blue - #547678
+Beige - #CEBC96
+Light pink - #c3a298
+Mauve - #926873
+Dark purple - #652A4F
+*/
+
+body {
+    background-color:#CEBC96;
+    text-align:center;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    text-align:center;
+    font-size:44px;
+    font-family:'Courgette', cursive;
+    color:#652A4F;
+    border:3px solid #926873;
+    padding:50px 100px 100px 100px;
+    margin:auto;
+}
+
+#highlight {
+    color:#547678;
+    font-weight:bold;
+}
