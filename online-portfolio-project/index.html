@@ -1,22 +1,52 @@
 <!DOCTYPE html>
 
+<!--Questions:
+-How do I center a button?
+-How should I fix the spacing in the info section?
+-How do I change the color for the whole navbar to green?
+-Is there a way to get rid of the gap between the navbar and the info section?
+-->
+
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>Bootstrap Template</title>
+<title>Hannah Marszalek Online Portfolio</title>
 
 <!-- Bootstrap CSS and JavaScript -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
-
+<link href="style.css" rel="stylesheet">
 
 </head>
     
 <body>
+
+<!--Topper start-->
+<div class="container-fluid" id="header">
+    <div class="row">
+        
+        <div class="col-4">
+            Headshot
+        </div>
+        
+         <div class="col-8">
+            <h1>Hannah Marszalek</h1>
+            <h3>Multi-Platform Journalist</h3>
+        </div>
+    </div>
+</div>   
+<!--Topper end-->
+
+<!--Contact button start-->
+<div class="container-fluid" id="contact">
+    <button>Contact me</button>
+</div>
+<!--Contact button end-->
+    
 <!-- Navbar start-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
@@ -43,23 +73,88 @@
   </div>
 </nav>
 <!-- Navbar end-->
-
+    
+<!--Info section start-->
 <div class="container-fluid">
     <div class="row">
-        
-        <div class="col-4">
-            Headshot
-        </div>
-        
-         <div class="col-8">
-            <h1>Name</h1>
-            <h2>Title</h2>
+        <div class="col">
+            <h3>Education</h3>
         </div>
     </div>
-</div>    
-    
-Hello, World!
+    <div class="row">
+        <div class="col-3">
+            <p>Bachelor of Arts in Journalism</p>
+            <p>University of Maryland</p>
+        </div>
+        <div class="col">
+            <p>May 2024</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <h3>Experience</h3>
+        </div>
+    </div> 
+    <div class="row">
+        <div class="col-3">
+            <p id="title">Data Reporter</p>
+            <p id="company">Howard Center for Investigative Journalism</p>
+            <p id="date">June 2022 - Present</p>
+            <br>
+            <p id="title">Copy Editor</p>
+            <p id="company">Stories Beneath the Shell</p>
+            <p id="date">January 2022 - Present</p>
+            <br>
+            <p id="title">Web Intern</p>
+            <p id="company">College Park Here &amp; Now</p>
+            <p id="date">January - May 2022</p>
+            <br>
+            <p id="title">Undergraduate Research Assistant</p>
+            <p id="company">FIRE: The First-Year Innovation &amp; Research Experience</p>
+            <p id="date">January - December 2021</p>
+            <br>
+            <p id="title">Specialist Ceramics Counselor</p>
+            <p id="company">Camp Riverbend</p>
+            <p id="date">June - August 2021</p>
+        </div>
+        <div class="col-9">
+            <p id="description">I use data analysis to identify patterns and test hypotheses for a major Associated Press investigation into law enforcement practices. I worked with a team to create a cohesive R notebook with visualizations of our most significant findings, and I filed nearly 100 FOIA requests for law enforcement records and negotiated with records custodians.</p>
+            <br>
+            <p id="description">I edit 2-3 stories per weekly news cycle and communicate with reporters and editors to ensure timely completion of polished articles.</p>
+            <br>
+            <p id="description">I created social media posts for Twitter and Facebook advertising articles 2-3 times per week. I also researched and wrote articles for assigned briefs and cooperated with editors during an intensive editing process to improve article clarity.</p>
+            <br>
+            <p id="description">I investigated the correlation between crime rates and pollution in Baltimore using data on crime, wind speeds and pollution. I generated infographics to display datasets using R. I also analyzed scholarly articles pertaining to research on connections between crime and pollution.</p>
+            <br>
+            <p id="description">I instructed campers on how to complete each project and provided them with help when asked. Other daily duties included running and unloading the kiln and keeping track of all projects and supplies.</p>
+        </div>
+    </div>
+    <div class="row">
+        
+    </div>
+    <div class="row">
+        <div class="col">
+            <h3>Skills</h3>
+        </div>
+    </div> 
+    <div class="row">
+        <div class="col-3">
+            <ul>
+                <li>Coding with R, Java, Javascript, HTML, CSS</li>
+                <li>Use of Adobe Creative Cloud applications</li>
+                <li>Fluency in Microsoft and Google Suites</li>
+                <li>Strong editing abilities and knowledge of AP Style</li>
+            </ul> 
+        </div>
+    </div>
+</div>
+<!--Info section end-->
 
+<!--Footer start-->
+<div class="container-fluid" id="footer">
+    Copyright 2022 | Hannah Marszalek
+</div>
+<!--Footer end-->
 
 </body>
     
