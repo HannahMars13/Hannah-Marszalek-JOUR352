@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 
-<!--Questions:
--How do I center a button?
--How should I fix the spacing in the info section?
--How do I change the color for the whole navbar to green?
--Is there a way to get rid of the gap between the navbar and the info section?
+<!--Things to work on
+-Figure out a better method for entering button
+-Fix the spacing in the info section
+-Change the color for the whole navbar to green
+-Get rid of the gap between the navbar and the info section?
+-Add the lines going across the page
 -->
 
 <html lang="en">
@@ -30,12 +31,14 @@
     <div class="row">
         
         <div class="col-4">
-            Headshot
+            <img src="DSCF2220 copy.JPG" id="headshot">
         </div>
         
-         <div class="col-8">
+         <div class="col-5">
             <h1>Hannah Marszalek</h1>
-            <h3>Multi-Platform Journalist</h3>
+            <h4>Multi-Platform Journalist</h4>
+            <br>
+            <h5>College Park, MD</h5>
         </div>
     </div>
 </div>   
@@ -43,7 +46,7 @@
 
 <!--Contact button start-->
 <div class="container-fluid" id="contact">
-    <button>Contact me</button>
+    <button id="button"><a href="mailto:hmars@terpmail.umd.edu">Contact me</a></button>
 </div>
 <!--Contact button end-->
     
@@ -56,15 +59,15 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           
         <li class="nav-item">
-          <a class="nav-link" href="#">Education</a>
+          <a class="nav-link" href="#education">Education</a>
         </li>
           
         <li class="nav-item">
-          <a class="nav-link" href="#">Experience</a>
+          <a class="nav-link" href="#experience">Experience</a>
         </li>
           
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#skills">Skills</a>
         </li>
           
       </ul>
@@ -76,6 +79,7 @@
     
 <!--Info section start-->
 <div class="container-fluid">
+    <a name="education"></a>
     <div class="row">
         <div class="col">
             <h3>Education</h3>
@@ -90,6 +94,8 @@
             <p>May 2024</p>
         </div>
     </div>
+    
+    <a name="experience"></a>
     <div class="row">
         <div class="col">
             <h3>Experience</h3>
@@ -132,6 +138,7 @@
     <div class="row">
         
     </div>
+    <a name="skills"></a>
     <div class="row">
         <div class="col">
             <h3>Skills</h3>

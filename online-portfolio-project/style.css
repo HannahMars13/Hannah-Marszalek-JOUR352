@@ -4,13 +4,35 @@
     font-family:"american typewriter";
 }
 
+.col-5 {
+    padding-top:50px;
+    text-align:center;
+}
+
+#headshot {
+    width:200px;
+    border-radius:300px;
+    margin:20px 100px 20px 100px;
+}
+
 #contact {
     background-color:white;
 }
 
-button {
+#button {
     background-color:#3F67A8;
+    border-radius:10px;
+    margin:10px 0px 0px 650px;
+    padding:5px 20px 5px 20px;
+}
+
+#button:hover {
+    background-color:#234276;
+}
+
+#button a {
     color:white;
+    text-decoration:none;
 }
 
 .container-fluid {
@@ -21,6 +43,7 @@ button {
 
 .nav-item {
     background-color:#87C093;
+    color:black;
 }
 
 #footer {
