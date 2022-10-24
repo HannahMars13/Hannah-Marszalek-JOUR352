@@ -13,6 +13,7 @@
     #headshot {
         width:200px;
         border-radius:500px;
+        border:none;
         margin:30px 0px 0px 75px;
     }
 
@@ -27,6 +28,7 @@
         margin:10px 0px 10px 0px;
         padding:5px 20px 5px 20px;
         border:none;
+        text-transform:uppercase;
     }
 
     #button a {
