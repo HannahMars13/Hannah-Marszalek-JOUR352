@@ -68,6 +68,7 @@
     }
 
     h3 {
+        text-transform:uppercase;
         padding-top:20px;
         font-weight:bolder;
         text-decoration-line:underline;
