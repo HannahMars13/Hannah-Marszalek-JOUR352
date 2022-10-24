@@ -1,13 +1,5 @@
 <!DOCTYPE html>
 
-<!--Things to work on
--Figure out a better method for entering button
--Fix the spacing in the info section
--Change the color for the whole navbar to green
--Get rid of the gap between the navbar and the info section?
--Add the lines going across the page
--->
-
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -19,6 +11,11 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+<!-- Imported Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
 
 <link href="style.css" rel="stylesheet">
 
@@ -29,12 +26,11 @@
 <!--Topper start-->
 <div class="container-fluid" id="header">
     <div class="row">
-        
-        <div class="col-4">
-            <img src="DSCF2220 copy.JPG" id="headshot">
+        <div class="col-sm-3">
+            <img src="DSCF2220copy.JPG" id="headshot" alt="my headshot">
         </div>
         
-         <div class="col-5">
+         <div class="col-sm-9" id="info">
             <h1>Hannah Marszalek</h1>
             <h4>Multi-Platform Journalist</h4>
             <br>
@@ -51,12 +47,7 @@
 <!--Contact button end-->
     
 <!-- Navbar start-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-      
-    <div id="navbarSupportedContent">
-        
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="nav">
           
         <li class="nav-item">
           <a class="nav-link" href="#education">Education</a>
@@ -71,73 +62,113 @@
         </li>
           
       </ul>
-        
-    </div>
-  </div>
-</nav>
 <!-- Navbar end-->
     
 <!--Info section start-->
 <div class="container-fluid">
     <a name="education"></a>
+    
     <div class="row">
+        
         <div class="col">
             <h3>Education</h3>
         </div>
+        
     </div>
+    
     <div class="row">
-        <div class="col-3">
+        
+        <div class="col-sm-3">
             <p>Bachelor of Arts in Journalism</p>
             <p>University of Maryland</p>
         </div>
-        <div class="col">
+        
+        <div class="col-sm-9">
             <p>May 2024</p>
         </div>
+        
     </div>
     
     <a name="experience"></a>
+    
     <div class="row">
+        
         <div class="col">
             <h3>Experience</h3>
         </div>
+        
     </div> 
-    <div class="row">
-        <div class="col-3">
-            <p id="title">Data Reporter</p>
-            <p id="company">Howard Center for Investigative Journalism</p>
-            <p id="date">June 2022 - Present</p>
-            <br>
-            <p id="title">Copy Editor</p>
-            <p id="company">Stories Beneath the Shell</p>
-            <p id="date">January 2022 - Present</p>
-            <br>
-            <p id="title">Web Intern</p>
-            <p id="company">College Park Here &amp; Now</p>
-            <p id="date">January - May 2022</p>
-            <br>
-            <p id="title">Undergraduate Research Assistant</p>
-            <p id="company">FIRE: The First-Year Innovation &amp; Research Experience</p>
-            <p id="date">January - December 2021</p>
-            <br>
-            <p id="title">Specialist Ceramics Counselor</p>
-            <p id="company">Camp Riverbend</p>
-            <p id="date">June - August 2021</p>
-        </div>
-        <div class="col-9">
-            <p id="description">I use data analysis to identify patterns and test hypotheses for a major Associated Press investigation into law enforcement practices. I worked with a team to create a cohesive R notebook with visualizations of our most significant findings, and I filed nearly 100 FOIA requests for law enforcement records and negotiated with records custodians.</p>
-            <br>
-            <p id="description">I edit 2-3 stories per weekly news cycle and communicate with reporters and editors to ensure timely completion of polished articles.</p>
-            <br>
-            <p id="description">I created social media posts for Twitter and Facebook advertising articles 2-3 times per week. I also researched and wrote articles for assigned briefs and cooperated with editors during an intensive editing process to improve article clarity.</p>
-            <br>
-            <p id="description">I investigated the correlation between crime rates and pollution in Baltimore using data on crime, wind speeds and pollution. I generated infographics to display datasets using R. I also analyzed scholarly articles pertaining to research on connections between crime and pollution.</p>
-            <br>
-            <p id="description">I instructed campers on how to complete each project and provided them with help when asked. Other daily duties included running and unloading the kiln and keeping track of all projects and supplies.</p>
-        </div>
-    </div>
+    
     <div class="row">
         
+        <div class="col-sm-3">
+            <p class="title">Data Reporter</p>
+            <p class="company">Howard Center for Investigative Journalism</p>
+            <p class="date">June 2022 - Present</p>
+        </div>
+        
+        <div class="col-sm-9">
+             <p class="description">I use data analysis to identify patterns and test hypotheses for a major Associated Press investigation into law enforcement practices. I worked with a team to create a cohesive R notebook with visualizations of our most significant findings, and I filed nearly 100 FOIA requests for law enforcement records and negotiated with records custodians.</p>
+        </div>
+        
     </div>
+        
+    <div class="row">
+        
+        <div class="col-sm-3"> 
+            <p class="title">Copy Editor</p>
+            <p class="company">Stories Beneath the Shell</p>
+            <p class="date">January 2022 - Present</p>
+        </div>
+        
+        <div class="col-sm-9">
+            <p class="description">I edit 2-3 stories per weekly news cycle and communicate with reporters and editors to ensure timely completion of polished articles.</p>
+        </div>
+        
+    </div>
+    
+    <div class="row">
+        
+        <div class="col-sm-3">
+            <p class="title">Web Intern</p>
+            <p class="company">College Park Here &amp; Now</p>
+            <p class="date">January - May 2022</p>
+        </div>
+        
+        <div class="col-sm-9">
+            <p class="description">I created social media posts for Twitter and Facebook advertising articles 2-3 times per week. I also researched and wrote articles for assigned briefs and cooperated with editors during an intensive editing process to improve article clarity.</p>
+        </div>
+        
+    </div>
+    
+    <div class="row">
+      
+        <div class="col-sm-3">
+            <p class="title">Undergraduate Research Assistant</p>
+            <p class="company">FIRE: The First-Year Innovation &amp; Research Experience</p>
+            <p class="date">January - December 2021</p>
+        </div>
+        
+        <div class="col-sm-9">
+            <p class="description">I investigated the correlation between crime rates and pollution in Baltimore using data on crime, wind speeds and pollution. I generated infographics to display datasets using R. I also analyzed scholarly articles pertaining to research on connections between crime and pollution.</p>
+        </div>
+        
+    </div>
+    
+    <div class="row">
+        
+        <div class="col-sm-3">
+            <p class="title">Specialist Ceramics Counselor</p>
+            <p class="company">Camp Riverbend</p>
+            <p class="date">June - August 2021</p>
+        </div>
+        
+        <div class="col-sm-9">
+            <p class="description">I instructed campers on how to complete each project and provided them with help when asked. Other daily duties included running and unloading the kiln and keeping track of all projects and supplies.</p>
+        </div>
+        
+    </div>
+
     <a name="skills"></a>
     <div class="row">
         <div class="col">
@@ -145,7 +176,7 @@
         </div>
     </div> 
     <div class="row">
-        <div class="col-3">
+        <div class="col-sm-8">
             <ul>
                 <li>Coding with R, Java, Javascript, HTML, CSS</li>
                 <li>Use of Adobe Creative Cloud applications</li>
