@@ -2,8 +2,35 @@
     /*Phone styles here*/
     /*This media query targets any screen smaller than 576px wide (see below)*/
     
+    /*Images/infographics should be stacked in the phone version*/
+    
+    body {
+        font-family:'EB Garamond', serif;
+    }
+    
     .leadimage {
         width:100%;
+    }
+    
+    #subhead {
+        font-family:'arial';
+    }
+    
+    #date {
+        font-family:'arial';
+    }
+    
+    #author {
+        font-family:'arial';
+    }
+    
+    #headline {
+        text-align:center;
+        /*Fix spacing here*/
+    }
+    
+    h3 {
+        font-weight:bold;
     }
 }
 
