@@ -1,0 +1,127 @@
+@media {
+    /*Phone styles here*/
+    /*This media query targets any screen smaller than 576px wide (see below)*/
+    
+    /*Images/infographics should be stacked in the phone version*/
+    
+    body {
+        font-family:'EB Garamond', serif;
+    }
+    
+    p {
+        font-size:22px;
+    }
+    
+    .caption {
+        color:#666666;
+        text-align:left;
+        font-size:15px;
+    }
+    
+    .leadimage {
+        width:100%;
+    }
+    
+    .vigilPics {
+        width:100%
+    }
+    
+    .sidebysides {
+        width:40%;
+    }
+    
+    .inline {
+        width:100%;
+    }
+    
+    #subhead {
+        font-family:'arial';
+        font-size:18px;
+    }
+    
+    #date {
+        font-family:'arial';
+        color:#666666;
+        font-size:14px;
+    }
+    
+    #author {
+        font-family:'arial';
+        font-size:16px;
+    }
+    
+    #headline {
+        text-align:center;
+    }
+    
+    h1 {
+        font-weight:bold;
+        font-size:50px;
+    }
+    
+    h3 {
+        font-weight:bold;
+    }
+    
+    .health-center {
+        width:100%
+    }
+    
+    .pullquote {
+        padding:30px 0px 30px 0px;
+        color:#184A74;
+    }
+       
+    .quote-line {
+        border-top:2.5px solid #184A74;
+        border-bottom:2.5px solid #184A74;
+        width:100%;
+    }
+       
+    .quotemark {
+        float:left;
+        font-size:100px;
+        font-weight:bold;
+        line-height:.8;
+        padding:0px 10px 0px 0px;
+    }
+    
+    .end-quotemark {
+        float:right;
+        font-size:100px;
+        font-weight:bold;
+        line-height:.8;
+        padding:0px 10px 0px 0px;
+    }
+       
+    .quote {
+        padding:10px 0px 10px 0px;
+    }
+       
+    .attribution {
+        text-align:right;
+        padding:0px 20px 10px 0px;
+    }
+    
+    .bottom-text {
+        font-style:italic;
+    }
+    
+    /*Add some styling stuff such as padding and margins where necessary, particularly around photos*/
+}
+
+@media (min-width: 576px) {
+    /*Tablet-only styles here*/
+    /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+}
+
+@media (min-width: 992px) {
+    /*Desktop-only styles here*/
+    /*This media query targets any screen that is at least 992px wide*/
+}
+
+@media (min-width: 1200px) {
+    /*Tablet-only styles here*/
+    /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+}
+
