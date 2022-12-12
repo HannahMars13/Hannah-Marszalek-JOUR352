@@ -10,33 +10,76 @@
     
     p {
         font-size:22px;
+        color:black;
+    }
+    
+    a {
+        color:#184A74;
+        text-decoration:none;
     }
     
     .caption {
         color:#666666;
         text-align:left;
         font-size:15px;
+        font-family:arial;
+        padding-bottom:20px;
     }
     
     .leadimage {
         width:100%;
+        padding:10px 0px 10px 0px;
     }
     
     .vigilPics {
-        width:100%
-    }
-    
-    .sidebysides {
-        width:40%;
-    }
-    
-    .inline {
         width:100%;
+        padding-top:20px;
+    }
+    
+    #hahamy {
+        padding-top:20px;
+        width:80%;
+    }
+    
+    #abramson {
+        padding-top:20px;
+        width:70%;
+    }
+    
+    #yalesticker {
+        padding-top:20px;
+        text-align:center;
+        width:100%;
+    }
+    
+    #hoodie {
+        width:100%;
+        padding-top:20px;
+    }
+    
+    #suicideprevention {
+        text-align:center;
+        width:85%;
+    }
+    
+    #vigilspeaker {
+        padding-top:20px;
+        width:100%;
+    }
+    
+    #shaw, #kopyto {
+        width:100%;
+        padding-top:20px;
+    }
+    
+    #infographic {
+        padding:10px 0px 20px 0px;
     }
     
     #subhead {
         font-family:'arial';
         font-size:18px;
+        padding:20px 0px 5px 0px;
     }
     
     #date {
@@ -56,15 +99,29 @@
     
     h1 {
         font-weight:bold;
-        font-size:50px;
+        font-size:60px;
+        padding-top:30px;
     }
     
-    h3 {
-        font-weight:bold;
+    h2 {
+        font-weight:bolder;
+        padding:25px 0px 15px 0px;
     }
     
-    .health-center {
-        width:100%
+    h4 {
+        padding-top:30px;
+        font-family:'arial';
+        font-weight:bolder;
+        text-align:center;
+    }
+    
+    #health-center {
+        width:100%;
+        padding-top:20px;
+    }
+    
+    #quad {
+        padding-top:20px;
     }
     
     .pullquote {
@@ -85,29 +142,95 @@
         line-height:.8;
         padding:0px 10px 0px 0px;
     }
-    
-    .end-quotemark {
-        float:right;
-        font-size:100px;
-        font-weight:bold;
-        line-height:.8;
-        padding:0px 10px 0px 0px;
-    }
        
     .quote {
         padding:10px 0px 10px 0px;
+        font-size:30px;
     }
        
     .attribution {
         text-align:right;
         padding:0px 20px 10px 0px;
+        font-size:30px;
     }
     
     .bottom-text {
         font-style:italic;
     }
     
-    /*Add some styling stuff such as padding and margins where necessary, particularly around photos*/
+    #slideshow {
+        padding:20px 0px 30px 0px;
+    }
+    
+    /* Slideshow container */
+    .slideshow-container {
+        position: relative;
+        background: #f1f1f1;
+    }   
+
+    /* Slides */
+    .mySlides {
+        display: none;
+        padding: 80px;
+        text-align: center;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -30px;
+        padding: 16px;
+        color: #888;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+        position: absolute;
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+    }
+
+    /* The dot/bullet/indicator container */
+    .dot-container {
+        text-align: center;
+        padding: 20px;
+        background: #ddd;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    /* Add a background color to the active dot/circle */
+    .active, .dot:hover {
+        background-color: #717171;
+    }
+
+    .slide-content {
+        color:black;
+        font-family:'arial';
+    }
 }
 
 @media (min-width: 576px) {
